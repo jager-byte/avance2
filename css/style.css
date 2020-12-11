@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+body{
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 14px;
+	color: #ff6633; 
+}
+
+
+.header{
+	background-color: rgba(0,0,0,0.8);
+	padding: 20px; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 80px;
+	width: 100%;
+	align-items: center;
+	vertical-align: middle;
+	position: fixed;
+	
+}
+
+.menu{
+	font-size: 20px;
+	text-align: right;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 85%;
+	
+}
+
+.searchbar{
+	border-bottom: 1px solid #ff6633 !important;
+	background-color: rgba(0,0,0,0.0);
+	border: none;
+	color: #ff6633;
+}
+
+a:hover {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+a:link {
+	color: #ff6633 !important;
+}
+
+#hero{
+	background-color: #eeeeef;
+	
+}
+
+#sneaker{
+	background-color:#F7F7F7;
+	padding-top: 160px;
+}
+
+.footer{
+	background-color: rgba(0,0,0,0.8);
+	padding: 40px; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 210px;
+	width: 100%;
+	font-size: 20px;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	
+}
+.icons-wrapper{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.icon{
+	width: 40px;
+	margin-bottom: 10px;		
+}
+
+
+
+.btn{
+	background-color: #ff6633;
+	border: none;
+	border-radius: 0;
+	margin-top: 40px;
+	font-size: 20px;
+	font-family: 'Hammersmith One', sans-serif; 
+}
+.btn:hover{
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+}
+
+.form-control{
+	background-color: #F7F7F7;
+	border: none;
+	color: #ff6633;
+	width: 60px;
+	font-size: 20px;
+}
+
+#sneaker hr{
+	background-color: #ff6633;
+	border: none;
+	width: 150px;
+	height: 3px;
+	display: inline-block;
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 20px;
+}
+
+#info h4{
+	font-size: 35px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 20px;
+		
+}
+
+#info h3{
+	color: rgba(0,0,0,0.8);
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+span{
+	margin-bottom: 20px;
+}
+#info span a{
+	color: rgba(0,0,0,0.8);
+	font-size: 20px;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+}
+
+#info span a:hover{
+	background-color: #ff6633;
+	color: #f7f7f7f;
+	border-radius: 100%;
+}
+
+
+
+
+
+
+
+
